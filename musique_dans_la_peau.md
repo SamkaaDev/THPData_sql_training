@@ -6,10 +6,10 @@
 1. ***Récupérer tous les albums***
 
 *Requête SQL*
-SELECT * FROM albums;
+> SELECT * FROM albums;
 
-Réponse obtenue*
-347
+*Réponse obtenue*
+> 347
 
 
 2. ***Récupérer tous les albums dont le titre contient "Great" (indice)***
