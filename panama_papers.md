@@ -23,10 +23,10 @@
 3. ***Combien la base contient-elle de bénéficiaires avec un nom unique ? Quel est le bénéficiaire dont le nom revient le plus souvent ?***
 
 *Requête SQL*
->
+> SELECT COUNT(DISTINCT name) FROM officer; SELECT name FROM officer GROUP BY name ORDER BY COUNT( * ) DESC LIMIT 1;
 
 *Réponse obtenue*
-> 
+> 122590 ; THE BEARER
 
 
 4. ***Donner la liste des juridictions avec le nombre d'entreprises offshores enregistrées sur chaque territoire, triée par ordre décroissant.***
